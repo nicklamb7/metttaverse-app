@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 
-function Post() {
+function Post(props) {
   return (
     <div className="post">
       <div className="post-top">
@@ -10,12 +10,12 @@ function Post() {
       <div className="post-bottom">
         <div className="left-side">
           <div className="image-wrapper">
-            <img src="#" alt="" />
+            <img src={props.profileImg} alt="" />
           </div>
-          <h1>Title</h1>
+          <h1>{props.userName}</h1>
         </div>
         <div className="right-side">
-          <p>Content</p>
+          <p>{props.likes}</p>
         </div>
       </div>
     </div>
