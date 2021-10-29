@@ -1,0 +1,31 @@
+.post {
+  margin: 8px;
+  .image-wrapper {
+    background-color: #f7f7f8;
+    border: 1px solid #e1e1e1;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+}
+.post-top {
+  border: 1px solid #e1e1e1;
+  background-color: #f7f7f8;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  height: 225px;
+  width: calc((100vw - 232px)/4);
+  flex: 1 1 200px;
+}
+
+.post-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .left-side,
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+}
