@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import Banner from './app/components/banner';
+import Footer from './app/components/footer';
 import Navbar from './app/components/navbar';
-import Posts from './app/components/posts';
+import Posts from './app/containers/posts';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Banner />
       <Posts />
+      <Footer />
     </div>
   );
 }

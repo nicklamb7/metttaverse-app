@@ -12,7 +12,7 @@ function Post(props) {
           <div className="image-wrapper">
             <img src={props.profileImg} alt="" />
           </div>
-          <h1>{props.userName}</h1>
+          <p><big>{props.userName}</big></p>
         </div>
         <div className="right-side">
           <p>{props.likes}</p>
