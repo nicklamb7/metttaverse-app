@@ -29,3 +29,15 @@
     align-items: center;
   }
 }
+
+.selected {
+  border: 1px solid red;
+  position: fixed;
+  top: 0px;
+  width: calc(100vw - 416px);
+  padding: 96px 120px;
+  .post-top {
+    width: calc(100vw - 440px);
+    height: 50vh;
+  }
+}

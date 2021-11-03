@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Post from '../../components/post';
+import Post from '../post';
 import { bindActionCreators } from 'redux';
 import { setPosts } from '../../actions/index';
 import './style.scss';
@@ -99,6 +99,8 @@ class Posts extends Component {
       <div className="posts">
         {this.props.posts.map(post =>
           <Post
+            post={post}
+            key={post.key}
             profileImg={post.profileImg}
             userName={post.userName}
             likes={post.likes}/>

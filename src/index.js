@@ -6,9 +6,11 @@ import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import { combineReducers, createStore } from '@reduxjs/toolkit';
 import postsReducer from './app/reducers/posts_reducer';
+import selectedPostReducer from './app/reducers/selected_post_reducer';
 
 const reducers = combineReducers({
-  posts: postsReducer
+  posts: postsReducer,
+  selectedPost: selectedPostReducer
 });
 
 ReactDOM.render(

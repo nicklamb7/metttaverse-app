@@ -5,77 +5,77 @@ const posts = [{
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 2,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 3,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 4,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 5,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 6,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 7,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 8,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 9,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 10,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 11,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 12,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 13,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 14,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 15,
     userName: 'Everything',
     likes: 'Everything'
   }, {
     profileImg: 'Everything',
-    key: 1,
+    key: 16,
     userName: 'Everything',
     likes: 'Everything'
   }]
